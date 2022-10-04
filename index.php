@@ -1,7 +1,3 @@
-<?php
-session_start();
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,11 +9,11 @@ session_start();
 <body>
     <div>
         <div>
-            <?php require_once("./login/top_login1.php") ?>
+            <?php require_once("./login/top_login.php") ?>
         </div> <!-- end of header -->
 
         <div>
-            <?php require_once("./menu/top_menu1.php") ?>
+            <?php require_once("./menu/top_menu.php") ?>
         </div> <!-- end of menu -->
 
         <div>
