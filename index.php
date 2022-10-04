@@ -13,11 +13,11 @@ session_start();
 <body>
     <div>
         <div>
-            <?php require_once("./view/top_login1.php") ?>
+            <?php require_once("./login/top_login1.php") ?>
         </div> <!-- end of header -->
 
         <div>
-            <?php require_once("./view/top_menu1.php") ?>
+            <?php require_once("./menu/top_menu1.php") ?>
         </div> <!-- end of menu -->
 
         <div>
