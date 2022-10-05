@@ -24,7 +24,7 @@
                 <p> <input type="text" name="userphone" id="userphone" placeholder="Phone Number 000-0000-0000" required> </p>
                 <p> <input type="text" name="useremail" id="useremail" placeholder="E-mail" required> </p>
                 <p> <input type="submit" value="Sign up" id="join_button" disabled=true> </p>
-                <p> 이미 회원이십니까? <a href="login/login.php">Login</a></p>
+                <p> 이미 회원이십니까? <a href="../login/login.php">Login</a></p>
             </form>
         </div>
     </div>
