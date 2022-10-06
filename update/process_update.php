@@ -15,6 +15,7 @@ $old_res = mysqli_fetch_array(mysqli_query($conn, $old_sql));
 
 if ($_POST['ch_password'] !== $old_res['pwd']) {
 
+    $_SESSION['user_name'] = $changeName;
     $oldPassword = $old_res['pwd'];
     $oldName = $old_res['name'];
     $oldPhone = $old_res['phone'];
