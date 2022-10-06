@@ -1,3 +1,5 @@
+<?php require_once("../login/top_login.php") ?>
+<?php require_once("../menu/top_menu.php") ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

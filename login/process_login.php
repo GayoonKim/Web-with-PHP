@@ -17,8 +17,10 @@ if($row) {
   echo "<script> window.location.replace('../index.php'); </script>";
 
 } else {
-    echo "<script> alert('잘못된 아이디 혹은 비밀번호.');";
-    echo "window.location.replace('../login/login.php'); </script>";
+
+  echo "<script> alert('잘못된 아이디 혹은 비밀번호.');";
+  echo "window.location.replace('../login/login.php'); </script>";
+
 }
 
 ?>
