@@ -10,10 +10,11 @@ $sql = "
 ";
 
 if ($result = mysqli_query($conn, $sql)) {
-    header("Location:../memo/memo.php");
+    echo "<script> alert('삭제가 완료되었습니다.');";
+    echo "window.location.href='../memo/memo.php'; </script>";
 } else {
     echo "<script> alert('삭제에 문제가 생겼습니다. 관리자에게 문의해주세요.');";
-    echo "window.location.href='../index.php'; </script>";
+    echo "window.location.href='../memo/memo.php'; </script>";
 }
 
 ?>
