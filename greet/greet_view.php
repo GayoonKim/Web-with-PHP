@@ -97,11 +97,3 @@ if (!$result = mysqli_query($conn, $newSQL)) {
 </body>
 
 </html>
-
-
-<!--
-
-<input type="button" value="삭제" onclick="del('delete.php?num=<?= $num ?>')" ;>&nbsp;
-
-<input type="button" value="글 작성" onclick="backWrite();">  
--->
